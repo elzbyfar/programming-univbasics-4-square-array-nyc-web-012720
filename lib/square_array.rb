@@ -2,7 +2,7 @@ def square_array(array)
   sq_arr = []
   array.length.times do |x|
     sq_nums = array[x]*array[x]
-    sq_arr.push(sq_nums)
+    sq_arr << sq_nums
   end
   sq_arr
 end 
