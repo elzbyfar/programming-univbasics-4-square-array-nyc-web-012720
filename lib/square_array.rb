@@ -9,6 +9,18 @@ end
 
 
 
+
+
+
+
+# # *** ALTERNATIVE ***
+# def square_array(array)
+#   array.map! { |n| n**2 } 
+#   return array 
+# end
+
+
+# # *** SECOND ALTERNATIVE ***
 # def square_array(array)
 #   sq_arr = []
 #   count = 0 
@@ -19,12 +31,3 @@ end
 #   end
 #   return sq_arr
 # end
-
-
-
-# *** ALTERNATIVE ***
-# def square_array(array)
-#   array.map! { |n| n**2 } 
-#   return array 
-# end
-
